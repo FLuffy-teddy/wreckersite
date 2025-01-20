@@ -7,27 +7,33 @@ import {
 
 const features = [
   {
-    name: "Push to deploy",
+    name: "24/7 Roadside Assistance",
     description:
-      "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
+      "We offer 24/7 towing services to ensure you're never left stranded. Whether it's day or night, our team is ready to assist you promptly and professionally.",
     icon: CloudArrowUpIcon,
   },
   {
-    name: "SSL certificates",
+    name: "Automobile wrecking services",
     description:
-      "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
+      "We pride ourselves on providing fast, friendly, and efficient towing services to get you back on the road as soon as possible.",
     icon: LockClosedIcon,
   },
   {
-    name: "Simple queues",
+    name: "Help with vehicle unlocking ",
     description:
-      "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
+      'With a commitment to "Do What is Right," we provide reliable and efficient towing services around the clock.',
     icon: ArrowPathIcon,
   },
   {
-    name: "Advanced security",
+    name: "Towing services",
     description:
-      "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
+      "Our professional drivers are trained to handle every situation with care and precision, ensuring your vehicle is towed securely and without damage.",
+    icon: FingerPrintIcon,
+  },
+  {
+    name: "Heavy duty towing services",
+    description:
+      "Our tow trucks is equipped to handle almost any towing job, big or small. From cars and motorcycles to trucks, we have the right equipment and expertise to transport your vehicle safely.",
     icon: FingerPrintIcon,
   },
 ];
