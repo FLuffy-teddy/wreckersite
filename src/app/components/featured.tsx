@@ -44,15 +44,17 @@ export default function Featured() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="text-base/7 font-semibold text-indigo-600">
-            Deploy faster
+            Towing you can rely on
           </h2>
           <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:text-balance">
-            Everything you need to deploy your app
+            When reliability is important
           </p>
           <p className="mt-6 text-lg/8 text-gray-600">
-            Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
-            Suspendisse eget egestas a elementum pulvinar et feugiat blandit at.
-            In mi viverra elit nunc.
+            Don't let a breakdown or accident ruin your day. Our team of experts
+            can help you get back on the road quickly and safely. We offer a
+            range of towing services to meet your needs, from 24/7 roadside
+            assistance to heavy-duty towing. When you need help, you can count
+            on us to be there for you.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">

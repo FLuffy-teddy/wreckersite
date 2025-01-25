@@ -1,7 +1,11 @@
 const stats = [
-  { id: 1, name: "Transactions every 24 hours", value: "Car Stuck?" },
-  { id: 2, name: "Assets under holding", value: "In an Accident?" },
-  { id: 3, name: "New users annually", value: "Locked your Keys?" },
+  { id: 1, name: "Available within 24 hours", value: "Car Stuck?" },
+  { id: 2, name: "Allow us to get you out safely", value: "In an Accident?" },
+  {
+    id: 3,
+    name: "We have the tools necessary to get in",
+    value: "Locked your Keys?",
+  },
 ];
 
 export default function Stats() {
