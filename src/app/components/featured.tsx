@@ -50,11 +50,11 @@ export default function Featured() {
             When reliability is important
           </p>
           <p className="mt-6 text-lg/8 text-gray-600">
-            Don't let a breakdown or accident ruin your day. Our team of experts
-            can help you get back on the road quickly and safely. We offer a
-            range of towing services to meet your needs, from 24/7 roadside
-            assistance to heavy-duty towing. When you need help, you can count
-            on us to be there for you.
+            Don&apos;t let a breakdown or accident ruin your day. Our team of
+            experts can help you get back on the road quickly and safely. We
+            offer a range of towing services to meet your needs, from 24/7
+            roadside assistance to heavy-duty towing. When you need help, you
+            can count on us to be there for you.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
