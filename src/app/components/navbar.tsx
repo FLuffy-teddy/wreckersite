@@ -3,7 +3,11 @@
 import Image from "next/image";
 
 import { useState } from "react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import {
+  Bars3Icon,
+  XMarkIcon,
+  Square2StackIcon,
+} from "@heroicons/react/24/outline";
 import { Dialog, DialogPanel } from "@headlessui/react";
 
 const navigation = [
@@ -18,28 +22,22 @@ export default function Navbar() {
   return (
     <div>
       {" "}
-      <nav className="flex justify-between items-center p-4 bg-blue-700 text-white">
-        <div className="text-md lg:text-2xl font-bold flex flex-col items-center">
-          <span className="text-red-600">Affordable</span>{" "}
+      <nav className="flex justify-between items-center p-4 bg-background text-white relative">
+        <div className="text-xl lg:text-2xl font-bold flex flex-col items-center order-1">
+          <span className="text-primary">Affordable</span>{" "}
           <span className="">Wrecker Service, LLC</span>
         </div>
-        <div className="flex lg:hidden">
+        <div className="flex lg:hidden order-4 fixed bottom-5 right-5">
           <button
             type="button"
             onClick={() => setMobileMenuOpen(true)}
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 text-white"
           >
             <span className="sr-only">Open main menu</span>
-            <Bars3Icon aria-hidden="true" className="size-6 " />
+            <Square2StackIcon aria-hidden="true" className="size-6 " />
           </button>
         </div>
-        <div className="hidden lg:flex flex-col items-end gap-1">
-          <div className="flex gap-3 text-sm">
-            <h3>Call Us Today!</h3>
-            <a className="font-bold" href="tel:+14796751865">
-              479-675-1865
-            </a>
-          </div>
+        <div className="hidden lg:flex flex-col items-end gap-1 order-2">
           <div className="flex gap-3">
             {navigation.map((item) => (
               <a
@@ -51,6 +49,15 @@ export default function Navbar() {
               </a>
             ))}
           </div>
+        </div>
+        <div className="flex flex-col gap-3 text-sm items-center order-3">
+          <h3>Call Us Today!</h3>
+          <a
+            className="font-bold border-2 border-gray-300 rounded-full p-2"
+            href="tel:+14796751865"
+          >
+            479-675-1865
+          </a>
         </div>
       </nav>
       <Dialog
