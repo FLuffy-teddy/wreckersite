@@ -27,7 +27,7 @@ export default function Navbar() {
           <span className="text-primary">Affordable</span>{" "}
           <span className="">Wrecker Service, LLC</span>
         </div>
-        <div className="flex lg:hidden order-4 fixed bottom-5 right-5">
+        <div className="flex lg:hidden order-4 fixed bottom-5 right-2 bg-background rounded-lg p-2 z-10">
           <button
             type="button"
             onClick={() => setMobileMenuOpen(true)}
@@ -37,13 +37,13 @@ export default function Navbar() {
             <Square2StackIcon aria-hidden="true" className="size-6 " />
           </button>
         </div>
-        <div className="hidden lg:flex flex-col items-end gap-1 order-2">
+        <div className="hidden text-foreground lg:flex flex-col items-end gap-1 order-2">
           <div className="flex gap-3">
             {navigation.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
-                className="text-sm/6 font-semibold text-gray-900"
+                className="text-sm/6 font-semibold"
               >
                 {item.name}
               </a>

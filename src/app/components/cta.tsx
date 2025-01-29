@@ -13,7 +13,7 @@ const stats = [
   { name: "Paid time off", value: "Unlimited" },
 ];
 
-export default function Header() {
+export default function CTA() {
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
       <Image

@@ -2,7 +2,7 @@
 
 import Featured from "./components/featured";
 import Hero from "./components/hero";
-import Header from "./components/header";
+import CTA from "./components/cta";
 import Stats from "./components/stats";
 
 export default function Page() {
@@ -10,7 +10,7 @@ export default function Page() {
     <div>
       <Hero />
       <Featured />
-      <Header />
+      <CTA />
       <Stats />
     </div>
   );
