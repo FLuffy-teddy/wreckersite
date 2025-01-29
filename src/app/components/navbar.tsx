@@ -3,11 +3,7 @@
 import Image from "next/image";
 
 import { useState } from "react";
-import {
-  Bars3Icon,
-  XMarkIcon,
-  Square2StackIcon,
-} from "@heroicons/react/24/outline";
+import { XMarkIcon, Square2StackIcon } from "@heroicons/react/24/outline";
 import { Dialog, DialogPanel } from "@headlessui/react";
 
 const navigation = [
