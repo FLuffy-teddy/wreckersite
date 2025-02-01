@@ -60,7 +60,7 @@ export default function Featured() {
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">
-                <dt className=" font-semibold">
+                <dt className="font-bold text-lg/8">
                   <div className="absolute left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-indigo-600">
                     <feature.icon
                       aria-hidden="true"

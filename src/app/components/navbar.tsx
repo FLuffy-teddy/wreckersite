@@ -7,7 +7,7 @@ import { XMarkIcon, Square2StackIcon } from "@heroicons/react/24/outline";
 import { Dialog, DialogPanel } from "@headlessui/react";
 
 const navigation = [
-  { name: "Home", href: "#" },
+  { name: "Home", href: "/#" },
   { name: "Services", href: "/services" },
   { name: "Contact", href: "/contact" },
 ];
@@ -97,6 +97,15 @@ export default function Navbar() {
                 ))}
               </div>
             </div>
+          </div>
+          <div className="text-black absolute bottom-2 right-2">
+            <a target="_blank" href="https://icons8.com/icon/118468/facebook">
+              Facebook
+            </a>{" "}
+            icon by{" "}
+            <a target="_blank" href="https://icons8.com">
+              Icons8
+            </a>
           </div>
         </DialogPanel>
       </Dialog>
