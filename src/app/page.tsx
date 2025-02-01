@@ -2,7 +2,6 @@
 
 import Featured from "./components/featured";
 import Hero from "./components/hero";
-import CTA from "./components/cta";
 import Stats from "./components/stats";
 import Footer from "./components/footer";
 
