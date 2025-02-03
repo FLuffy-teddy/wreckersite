@@ -27,8 +27,8 @@ export default function Footer() {
           affordablewreckerservice@yahoo.com
         </a>
         <a href="https://www.facebook.com/people/Affordable-Wrecker-Service-LLC">
-          {" "}
           <Image
+            className="border rounded-full bg-foreground"
             src="/icons8-facebook.svg"
             alt="Facebook"
             width={50}
